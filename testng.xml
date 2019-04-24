@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/IdeaProjects/IMCL_Selfcare_Android_App">
+        <classes>
+            <class name="com.selfcare.imcl.tests.SignupTest"><methods><include name="signupCustomer"/></methods></class>
+            <class name="com.selfcare.imcl.tests.ForgotPasswordTest"><methods><include name="forgotPassword"/></methods></class>
+            <class name="com.selfcare.imcl.tests.LoginTest"><methods><include name="loginToApp"/></methods></class>
+            <class name="com.selfcare.imcl.tests.HomeTest"><methods><include name="home"/></methods></class>
+            <class name="com.selfcare.imcl.tests.CustomerTypeTest"><methods><include name="customertype"/></methods></class>
+            <class name="com.selfcare.imcl.tests.AddonsTest"><methods><include name="activateAddons"/></methods></class>
+            <class name="com.selfcare.imcl.tests.RenewAddonsTest"><methods><include name="RenewAddons"/></methods></class>
+            <class name="com.selfcare.imcl.tests.ActivationReportsTest"><methods><include name="activationReport"/></methods></class>
+            <class name="com.selfcare.imcl.tests.Error3Test"><methods><include name="errorthree"/></methods></class>
+            <class name="com.selfcare.imcl.tests.Error5Test"><methods><include name="errorfive"/></methods></class>
+            <class name="com.selfcare.imcl.tests.Error7Test"><methods><include name="errorSeven"/></methods></class>
+            <class name="com.selfcare.imcl.tests.OtherErrorsTest"><methods><include name="otherError"/></methods></class>
+            <class name="com.selfcare.imcl.tests.PaymentReportsTest"><methods><include name="paymentReports"/></methods></class>
+            <class name="com.selfcare.imcl.tests.SubscriberCornerTest"><methods><include name="updateCustomerDetails"/></methods></class>
+            <class name="com.selfcare.imcl.tests.TicketTest"><methods><include name="ticket"/></methods></class>
+            <class name="com.selfcare.imcl.tests.LogoutTest"><methods><include name="logoutApp"/></methods></class>
+        </classes>
+    </test>
+</suite>
