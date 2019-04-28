@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="imcl-selfcare" />
         <module name="IMCL_Selfcare_Android_App" />
+        <module name="imcl-selfcare" />
       </profile>
     </annotationProcessing>
   </component>
